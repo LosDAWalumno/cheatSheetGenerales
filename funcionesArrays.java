@@ -1,4 +1,3 @@
-package cheatSheetGenerales;
 import java.util.Arrays;
 public class funcionesArrays {
     ////////////Eliminar un elemento de un array///////////////////////////////
