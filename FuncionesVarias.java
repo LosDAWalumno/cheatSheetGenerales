@@ -171,4 +171,27 @@ public class FuncionesVarias {
         resto = cant % 200;
         // Continuar con los demás billetes...
     }
+    
+    // ------------------------------
+    // 15. Invertir orden de un numero (123 --> 321)
+    // ------------------------------
+    public static int invertirNumero(int numero) {
+        int inverso = 0;
+        while (numero > 0) {
+            int digito = numero % 10;
+            inverso = inverso * 10 + digito;
+            numero = numero / 10;
+        }
+        return inverso;
+    }
+    // ------------------------------
+    // 16. Invertir Cadena de carácteres (123abc -->cba321)
+    // ------------------------------
+    public static String invertirCadena(String cadena) {
+        String inversa = "";
+        for (int i = cadena.length() - 1; i >= 0; i--) {
+            inversa += cadena.charAt(i);
+        }
+        return inversa;
+    }
 }
