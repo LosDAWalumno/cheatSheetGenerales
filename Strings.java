@@ -67,9 +67,7 @@ public class Strings {
         // Verificar si la cadena está vacía
         boolean esVaciaLength = cadena.isEmpty();
         System.out.println("¿Cadena está vacía? " + esVaciaLength);
+        
     }
         
-        
-
-    
 }
