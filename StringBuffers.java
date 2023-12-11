@@ -4,7 +4,7 @@ public class StringBuffers {
                 public static void main(String[] args) {
                 // Ejemplo básico
         System.out.println("Concatenar al final");        
-                StringBuffer stringBuffer = new StringBuffer("Hola");
+                StringBuffer stringBuffer = new StringBuffer("Hola"); 
                 stringBuffer.append(" Mundo"); // Concatenar al final
                 System.out.println("Después de append: " + stringBuffer);
 
@@ -33,7 +33,7 @@ public class StringBuffers {
                 System.out.println("Longitud actual: " + stringBuffer.length()); // Obtener la longitud
 
                 System.out.println("Establecer un carácter en una posición específica");
-                stringBuffer.setCharAt(1, 'e'); // Establecer un carácter en una posición específica
+                stringBuffer.setCharAt(1, 'e'); // Establecer un carácter en una posición específica (reemplazar)
                 System.out.println("Después de setCharAt: " + stringBuffer);
 
         System.out.println("Reemplazar en un rango");
@@ -97,4 +97,4 @@ public class StringBuffers {
         }
         
         
-        }
+        } 

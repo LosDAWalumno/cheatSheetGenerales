@@ -129,7 +129,7 @@ public class FuncionesVarias {
     }
 
     // ------------------------------
-    // 12. Return number of digits of an integer
+    // 12. Devuelve el número de dígitos
     // ------------------------------
 
     public static int calcularNumeroDigitos(int n) {
