@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class FuncionesArraysCombinado {
+public class funcionesArrays {
     // Desplazamiento circular de elementos en un array
     public static void desplazarTabla(int tabla[], int n) {
         int longitud = tabla.length;
