@@ -1,0 +1,55 @@
+/* Estilos CSS */
+
+/* Configuración global del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    /* Otros estilos globales si es necesario */
+}
+
+/* Estilo para elementos con la clase 'clase' */
+.clase {
+    color: #333;
+    /* Otros estilos para la clase 'clase' */
+}
+
+/* Estilo para el elemento con el ID 'miID' */
+#miID {
+    background-color: lightgray;
+    /* Otros estilos para el ID 'miID' */
+}
+
+/* Estilo de texto para párrafos */
+p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    /* Otros estilos para los párrafos */
+}
+
+/* Estilo de borde para todos los div */
+div {
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    /* Otros estilos para los div */
+}
+
+/* Diseño responsivo para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        /* Otros estilos para pantallas pequeñas si es necesario */
+    }
+}
+
+/* Centrar elementos con la clase 'centro' */
+.centro {
+    text-align: center;
+    margin: 0 auto;
+    /* Otros estilos para la clase 'centro' */
+}

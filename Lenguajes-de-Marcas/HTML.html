@@ -10,62 +10,145 @@
 </head>
 <body>
 
-    <!-- Etiquetas HTML5 -->
-
     <!-- Estructura -->
-    <header></header>
-    <nav></nav>
-    <section></section>
-    <article></article>
-    <aside></aside>
-    <footer></footer>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Título de la Página</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Principal -->
+    <section>
+        <h2>Sección Principal</h2>
+        <p>Contenido principal de la página.</p>
+    </section>
+
+    <!-- Artículo -->
+    <article>
+        <h3>Título del Artículo</h3>
+        <p>Contenido del artículo.</p>
+    </article>
+
+    <!-- Barra lateral -->
+    <aside>
+        <h4>Barra lateral</h4>
+        <p>Contenido adicional o enlaces relacionados.</p>
+    </aside>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
 
     <!-- Texto -->
-    <h1></h1>
-    <p></p>
-    <span></span>
-    <strong></strong>
-    <em></em>
-    <a href="#"></a>
+
+    <!-- Encabezados -->
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <!-- Párrafos -->
+    <p>Este es un párrafo de ejemplo.</p>
+
+    <!-- Texto de énfasis -->
+    <span>Texto de énfasis</span>
+    <strong>Texto fuerte</strong>
+    <em>Texto enfatizado</em>
+
+    <!-- Enlaces -->
+    <a href="https://www.ejemplo.com" target="_blank" rel="noopener noreferrer">Enlace de ejemplo</a>
 
     <!-- Listas -->
+
+    <!-- Lista no ordenada -->
     <ul>
-        <li></li>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
     </ul>
+
+    <!-- Lista ordenada -->
     <ol>
-        <li></li>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
     </ol>
+
+    <!-- Lista de definiciones -->
     <dl>
-        <dt></dt>
-        <dd></dd>
+        <dt>Término 1</dt>
+        <dd>Definición 1</dd>
+        <dt>Término 2</dt>
+        <dd>Definición 2</dd>
     </dl>
 
     <!-- Multimedia -->
-    <img src="" alt="">
-    <audio src="" controls></audio>
-    <video src="" controls></video>
+
+    <!-- Imagen -->
+    <img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200">
+
+    <!-- Audio -->
+    <audio src="audio.mp3" controls></audio>
+
+    <!-- Video -->
+    <video src="video.mp4" controls></video>
 
     <!-- Formularios -->
-    <form action="" method="">
-        <input type="text" name="">
-        <textarea name=""></textarea>
-        <select name="">
-            <option value=""></option>
-        </select>
-        <button type="submit"></button>
-        <label for=""></label>
-        <fieldset></fieldset>
+
+    <!-- Formulario básico -->
+    <form action="/procesar" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <button type="submit">Enviar</button>
     </form>
 
+    <!-- Área de Texto -->
+    <textarea name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+    <!-- Menú desplegable -->
+    <select name="opciones">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+
     <!-- Atributos Comunes -->
-    <div id="" class="" style=""></div>
-    <input type="text" placeholder="" disabled>
-    <img src="" alt="" width="" height="">
-    <a href="#" target="_blank" rel="noopener noreferrer"></a>
+
+    <!-- Div con ID, clase y estilo -->
+    <div id="miDiv" class="contenedor-principal" style="background-color: #f0f0f0; padding: 10px;">
+        Contenido del div.
+    </div>
+
+    <!-- Campo de entrada de texto con atributos -->
+    <input type="text" placeholder="Texto de ejemplo" disabled>
+
+    <!-- Imagen con atributos -->
+    <img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200">
+
+    <!-- Enlace con atributos -->
+    <a href="https://www.ejemplo.com" target="_blank" rel="noopener noreferrer">Enlace de ejemplo</a>
 
     <!-- Etiquetas Especiales -->
+
     <!-- Comentarios -->
-    <!-- <p></p> -->
+    <!-- Este es un comentario HTML -->
 
 </body>
 </html>
